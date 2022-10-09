@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAY CUPCAKES</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <ol id="cupcakes_list">
+        <!-- will be filled in by JS -->
+    </ol>
+    <h2>Add a Cupcake to the list!</h2>
+    <form action="" id="add-form">
+        <p>
+            <label for="flavor"></label>
+            Flavor: <input type="text" name="flavor" id="h-flavor">
+        </p>
+        <p>
+            <label for="size"></label>
+            Size: <input type="text" name="size" id="h-size">
+        </p>
+        <p>
+            <label for="rating"></label>
+            Rating: <input type="text" name="rating" id="h-rating">
+        </p>
+        <p>
+            <label for="image"></label>
+            Image URL: <input type="text" name="image" id="h-image">
+        </p>
+        <button>Add Cupcake!</button>
+    </form>
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+
+</html>
